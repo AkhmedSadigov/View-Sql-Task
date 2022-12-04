@@ -15,7 +15,7 @@
         </div>
         <div>
             <asp:GridView ID="GridView1" runat="server" CssClass="mydatagrid" PagerStyle-CssClass="pager"
- HeaderStyle-CssClass="header" RowStyle-CssClass="rows" ></asp:GridView>
+ HeaderStyle-CssClass="header" RowStyle-CssClass="rows" AllowPaging="True" OnPageIndexChanging="datagrid_PageIndexChanging" PageSize="4" ></asp:GridView>
         </div>
         <div>
             <asp:Label ID="lbl2" runat="server" Text=""></asp:Label>
